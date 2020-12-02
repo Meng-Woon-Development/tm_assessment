@@ -7,7 +7,7 @@ Assuming you have the environment installed in your machine
 4. MySQL
 
 
-There are multiple folder into this repository, name as ######be Java back-end program whereas ######fe is the Angular front-end program whereby the cvs_files and load_data(this folder will create when running the Java program). There are few setup need to be done in order to launch the system. Follow the step below:
+There are multiple folder into this repository, name as (be) Java back-end program whereas (fe) is the Angular front-end program whereby the cvs_files and load_data(this folder will create when running the Java program). There are few setup need to be done in order to launch the system. Follow the step below:
 
 1. Place the entire solution into your computer desktop, there are 2 area need to configure in application.yml file with this # comment
 1.1. configure the import-path: according of your desktop directory by default should be working  note* if the load_data folder not created it mean the path not configure correctly.
