@@ -2,9 +2,10 @@
 
 Assuming you have the environment installed in your machine
 1. Java 14
-2. NPM latest+
-3. Angular 10+
-4. MySQL
+2. Spring Boot 2.4.0
+3. NPM latest+
+4. Angular 10+
+5. MySQL
 
 
 There are multiple folder into this repository, name as (be) Java back-end program whereas (fe) is the Angular front-end program whereby the cvs_files and load_data(this folder will create when running the Java program). There are few setup need to be done in order to launch the system. Follow the step below:
@@ -13,7 +14,7 @@ There are multiple folder into this repository, name as (be) Java back-end progr
 1.1. configure the import-path: according of your desktop directory by default should be working  note* if the load_data folder not created it mean the path not configure correctly.
 1.2. configure the datasource to match with your MySQL connection string #
 
-2. To launch the back-end Java program under the be$ path execute command below or run in IDE
+2. To launch the back-end Java program under the be$ directory execute command below or run in IDE
    $ mvn clean install
    $ mvn spring-boot:run
 
@@ -25,9 +26,14 @@ There are multiple folder into this repository, name as (be) Java back-end progr
         "skill": "SKILL_1"
     }
 
-5. Lastly launch the front-end Angular program(client) under the fe$ execute command below:
+5. Lastly launch the front-end Angular program(client) under the fe$ directory execute command below:
+   $ npm i
    $ ng s -o
+   
+   then enter the value in the portal e.g. Task: TASK_99, Skill: SKILL_3
 
--- That's all -- 
+-- That's all and enjoy -- 
+
+* If facing any issue feel free to contact: chanmw126@gmail.com
 
 

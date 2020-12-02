@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import lombok.extern.log4j.Log4j2;
 import tm.assessment.model.TeamSkill;
-import tm.assessment.model.Teams;
 import tm.assessment.repository.TeamSkillRepository;
 import tm.assessment.utility.CsvHelper;
 import tm.assessment.utility.FileUtility;

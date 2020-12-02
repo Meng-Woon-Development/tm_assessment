@@ -2848,3 +2848,774 @@ Caused by: org.hibernate.AnnotationException: No identifier specified for entity
 2020-12-02 10:17:44 [%PARSER_ERROR[threadId]] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2020-12-02 10:17:44 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
 2020-12-02 10:17:44 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-12-02 10:46:16 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Starting AssessmentApplication using Java 14.0.2 on Meng-Woons-MacBook-Pro.local with PID 35524 (/Users/mengwoon/Desktop/tm_assessment/assessment/be/target/classes started by mengwoon in /Users/mengwoon/Desktop/tm_assessment/assessment/be)
+2020-12-02 10:46:16 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - No active profile set, falling back to default profiles: default
+2020-12-02 10:46:16 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Starting AssessmentApplication using Java 14.0.2 on Meng-Woons-MacBook-Pro.local with PID 35525 (/Users/mengwoon/Desktop/tm_assessment/assessment/be/target/classes started by mengwoon in /Users/mengwoon/Desktop/tm_assessment/assessment/be)
+2020-12-02 10:46:16 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - No active profile set, falling back to default profiles: default
+2020-12-02 10:46:17 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-02 10:46:17 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-02 10:46:17 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-02 10:46:17 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-02 10:46:18 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 10:46:18 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 10:46:18 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 207 ms. Found 4 JPA repository interfaces.
+2020-12-02 10:46:18 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 4 JPA repository interfaces.
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-02 10:46:19 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3063 ms
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3073 ms
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-02 10:46:20 [%PARSER_ERROR[threadId]] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-02 10:46:21 [%PARSER_ERROR[threadId]] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "create table assignment_result (id bigint not null auto_increment, skill varchar(255), task varchar(255), team varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table assignment_result (id bigint not null auto_increment, skill varchar(255), task varchar(255), team varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:423)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:314)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:156)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at tm.assessment.AssessmentApplication.main(AssessmentApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'assignment_result' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "create table tasks (task_id varchar(255) not null, skill varchar(255), primary key (task_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table tasks (task_id varchar(255) not null, skill varchar(255), primary key (task_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:423)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:314)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:156)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at tm.assessment.AssessmentApplication.main(AssessmentApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'tasks' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (team_id varchar(255) not null, primary key (team_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (team_id varchar(255) not null, primary key (team_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:423)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:314)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:156)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at tm.assessment.AssessmentApplication.main(AssessmentApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'teams' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "create table team_skill (id integer not null auto_increment, skill varchar(255), team_id varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table team_skill (id integer not null auto_increment, skill varchar(255), team_id varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:423)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:314)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:156)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at tm.assessment.AssessmentApplication.main(AssessmentApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'team_skill' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 10:46:23 [%PARSER_ERROR[threadId]] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'taskExecutor'
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-02 10:46:24 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Started AssessmentApplication in 9.035 seconds (JVM running for 10.472)
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: task.csv is done
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - loadTask start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - extractTask start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - extractTask end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'assignmentdb.tasks' doesn't exist
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  o.h.e.i.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:319)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2422)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4394)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4384)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1186)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1175)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:193)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2786)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2723)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:988)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll(SimpleJpaRepository.java:591)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll(SimpleJpaRepository.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy94.saveAll(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy80.saveAll(Unknown Source)
+	at tm.assessment.service.TaskServiceImpl.loadTask(TaskServiceImpl.java:33)
+	at tm.assessment.component.MyFileChangeListener.onChange(MyFileChangeListener.java:68)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.fireListeners(FileSystemWatcher.java:329)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.updateSnapshots(FileSystemWatcher.java:323)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.scan(FileSystemWatcher.java:283)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.run(FileSystemWatcher.java:263)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'assignmentdb.tasks' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 82 common frames omitted
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR t.assessment.service.TaskServiceImpl - Error loadTask data could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - loadTask data end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded task.csv file: false
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: team_skill.csv is done
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - loadTeamSkill start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - extractTeamSkills start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - extractTeamSkills end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'assignmentdb.team_skill' doesn't exist
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR t.a.service.TeamSkillServiceImpl - Error loadTeamSkill: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - loadTeamSkill end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded team_skill.csv file: false
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: team.csv is done
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - loadTeam start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - extractTeam start
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - extractTeam end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'assignmentdb.teams' doesn't exist
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  o.h.e.i.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:319)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2422)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4394)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4384)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1186)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1175)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:193)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2786)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2723)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:988)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy91.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll(SimpleJpaRepository.java:591)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll(SimpleJpaRepository.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy98.saveAll(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy79.saveAll(Unknown Source)
+	at tm.assessment.service.TeamServiceImpl.loadTeam(TeamServiceImpl.java:37)
+	at tm.assessment.component.MyFileChangeListener.onChange(MyFileChangeListener.java:64)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.fireListeners(FileSystemWatcher.java:329)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.updateSnapshots(FileSystemWatcher.java:323)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.scan(FileSystemWatcher.java:283)
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher$Watcher.run(FileSystemWatcher.java:263)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'assignmentdb.teams' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 82 common frames omitted
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] ERROR t.assessment.service.TeamServiceImpl - Error loadTeam: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - loadTeam end
+2020-12-02 10:46:46 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded team.csv file: false
+2020-12-02 10:47:21 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'taskExecutor'
+2020-12-02 10:47:21 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:47:21 [%PARSER_ERROR[threadId]] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-02 10:47:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-02 10:47:21 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-02 10:47:52 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Starting AssessmentApplication using Java 14.0.2 on Meng-Woons-MacBook-Pro.local with PID 35581 (/Users/mengwoon/Desktop/tm_assessment/assessment/be/target/classes started by mengwoon in /Users/mengwoon/Desktop/tm_assessment/assessment/be)
+2020-12-02 10:47:52 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - No active profile set, falling back to default profiles: default
+2020-12-02 10:47:52 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-02 10:47:52 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-02 10:47:53 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 10:47:54 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 4 JPA repository interfaces.
+2020-12-02 10:47:54 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-02 10:47:54 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-02 10:47:54 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2358 ms
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-02 10:47:55 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-02 10:47:56 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-02 10:47:56 [%PARSER_ERROR[threadId]] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2020-12-02 10:47:57 [%PARSER_ERROR[threadId]] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 10:47:58 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-02 10:47:58 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-02 10:47:58 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-02 10:47:58 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Started AssessmentApplication in 6.995 seconds (JVM running for 8.04)
+2020-12-02 10:48:43 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: MODIFY On file: .DS_Store is done
+2020-12-02 10:50:36 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'taskExecutor'
+2020-12-02 10:50:36 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:50:36 [%PARSER_ERROR[threadId]] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-02 10:50:36 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-02 10:50:36 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-12-02 10:50:46 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Starting AssessmentApplication using Java 14.0.2 on Meng-Woons-MacBook-Pro.local with PID 35675 (/Users/mengwoon/Desktop/tm_assessment/assessment/be/target/classes started by mengwoon in /Users/mengwoon/Desktop/tm_assessment/assessment/be)
+2020-12-02 10:50:46 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - No active profile set, falling back to default profiles: default
+2020-12-02 10:50:46 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-02 10:50:46 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-02 10:50:47 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 10:50:47 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1841 ms
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-02 10:50:48 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-02 10:50:49 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-02 10:50:49 [%PARSER_ERROR[threadId]] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-02 10:50:50 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-12-02 10:50:51 [%PARSER_ERROR[threadId]] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-12-02 10:50:51 [%PARSER_ERROR[threadId]] INFO  tm.assessment.AssessmentApplication - Started AssessmentApplication in 5.516 seconds (JVM running for 6.441)
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: task.csv is done
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - loadTask start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - extractTask start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - extractTask end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - loadTask data end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded task.csv file: true
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: team_skill.csv is done
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - loadTeamSkill start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - extractTeamSkills start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - extractTeamSkills end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.service.TeamSkillServiceImpl - loadTeamSkill end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded team_skill.csv file: true
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: ADD On file: team.csv is done
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - loadTeam start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - extractTeam start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - extractTeam end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TeamServiceImpl - loadTeam end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - loaded team.csv file: true
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - getAllTask start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.assessment.service.TaskServiceImpl - getAllTask data end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Start assigning task
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_1 Skill: SKILL_3 assigned to Team: TEAM_02
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_10 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_11 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_12 Skill: SKILL_3 assigned to Team: TEAM_03
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:33 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_13 Skill: SKILL_2 assigned to Team: TEAM_02
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_14 Skill: SKILL_2 assigned to Team: TEAM_03
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_15 Skill: SKILL_1 assigned to Team: TEAM_04
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_16 Skill: SKILL_2 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_17 Skill: SKILL_1 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_18 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_19 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_2 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_20 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_21 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_22 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_23 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_24 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_25 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_26 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_27 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_28 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_29 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_3 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_30 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_4 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_5 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_6 Skill: SKILL_1 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_7 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_8 Skill: SKILL_3 assigned to Team: TEAM_05
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Task: TASK_9 Skill: SKILL_2 assigned to Team: TEAM_01
+2020-12-02 10:51:34 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - End assigning task
+2020-12-02 10:51:42 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: DELETE On file: task.csv is done
+2020-12-02 10:51:42 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: DELETE On file: team_skill.csv is done
+2020-12-02 10:51:42 [%PARSER_ERROR[threadId]] INFO  t.a.component.MyFileChangeListener - Operation: DELETE On file: team.csv is done
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.c.AssignmentResultController - postAsync start
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:51:47 [%PARSER_ERROR[threadId]] INFO  t.a.c.AssignmentResultController - postAsync end
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.c.AssignmentResultController - postAsync start
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult start
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin start
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - roundRobin end
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.s.AssignmentReulstServiceImpl - saveAssignmentResult end
+2020-12-02 10:52:30 [%PARSER_ERROR[threadId]] INFO  t.a.c.AssignmentResultController - postAsync end
+2020-12-02 10:55:03 [%PARSER_ERROR[threadId]] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'taskExecutor'
+2020-12-02 10:55:03 [%PARSER_ERROR[threadId]] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 10:55:03 [%PARSER_ERROR[threadId]] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-02 10:55:03 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-12-02 10:55:03 [%PARSER_ERROR[threadId]] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
