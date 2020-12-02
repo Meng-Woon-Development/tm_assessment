@@ -32,7 +32,7 @@ There are multiple folder into this repository, name as (be) Java back-end progr
    
    then enter the value in the portal e.g. Task: TASK_99, Skill: SKILL_3
 
--- That's all and enjoy -- 
+-- That's all and enjoy the setup -- 
 
 * If facing any issue feel free to contact: chanmw126@gmail.com
 
