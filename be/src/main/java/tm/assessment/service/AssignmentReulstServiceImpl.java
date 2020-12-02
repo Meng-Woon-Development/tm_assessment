@@ -2,6 +2,10 @@ package tm.assessment.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,38 +75,35 @@ public class AssignmentReulstServiceImpl implements AssignmentResultService {
             var teamSkills = teamSkillRepository.findBySkill(skill);
             var listOfAssignedTasks = assignmentResultRepository.findAll();
             var ls = new ArrayList<AssignmentResult>();
-            for(TeamSkill ts : teamSkills) {
-                // var assignment = assignmentResultRepository.findByTeamAndSkill(ts.getTeamId(), ts.getSkill());            
+            for(TeamSkill ts : teamSkills) {                
                 var assignment = listOfAssignedTasks
                                     .stream()
                                     .filter(x -> x.getTeam().equals(ts.getTeamId()))
                                     .filter(x -> x.getSkill().equals(ts.getSkill()))
                                     .findFirst()
                                     .orElse(null);
-                                    // .map(a -> {
-                                    //     return new AssignmentResult(a.getTeam(), a.getTask(), 
-                                    //     a.getSkill(), a.getNumberOfTask());
-                                    // }).orElse(null);
-                                    
-                                    
-                if( assignment == null) {
-                    //  insert record and return
-                    var entity = new AssignmentResult(ts.getTeamId(), task, skill, 1);
+
+                //  insert record and return
+                if( assignment == null) {                    
+                    var entity = new AssignmentResult(ts.getTeamId(), task, skill);
                     return assignmentResultRepository.save(entity);
                 } 
                 ls.add(assignment);
             }
             
-            // get the lowest no. of assigned task
-            var result = ls.stream()
-                        .sorted(Comparator.comparingInt(AssignmentResult::getNumberOfTask))
-                        .findFirst()
-                        .get()
-                        .getId();
-            
-            var assignTeam = assignmentResultRepository.findById(result).orElse(null);
-            assignTeam.setNumberOfTask(assignTeam.getNumberOfTask() + 1);
+            // group the assignment list
+            Map<String, Long> counted = ls.stream()
+                    .collect(Collectors.groupingBy(AssignmentResult::getTeam, Collectors.counting()));
+            // get the lowest
+            Map<String, Long> finalMap = new LinkedHashMap<>();
 
+            // sort the team
+            counted.entrySet().stream()
+                    .sorted(Map.Entry.<String, Long>comparingByValue())
+                    .forEachOrdered(e -> finalMap.put(e.getKey(), e.getValue()));
+
+            var team = finalMap.keySet().iterator().next();
+            var assignTeam = new AssignmentResult(team, task, skill);
             return assignmentResultRepository.save(assignTeam);
 
         } catch (Exception e) {

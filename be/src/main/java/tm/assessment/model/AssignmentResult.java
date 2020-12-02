@@ -22,12 +22,12 @@ public class AssignmentResult {
     private String team;
     private String task;
     private String skill;
-    private int numberOfTask;
+    // private int numberOfTask;
 
-    public AssignmentResult(String team, String task, String skill, int numberOfTask) {
+    public AssignmentResult(String team, String task, String skill) {
         this.team = team;
         this.task = task;
         this.skill = skill;
-        this.numberOfTask = numberOfTask;
+        // this.numberOfTask = numberOfTask;
     }
 }

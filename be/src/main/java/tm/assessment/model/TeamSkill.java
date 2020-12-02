@@ -1,6 +1,13 @@
 package tm.assessment.model;
 
+import java.io.Serializable;
+
+import javax.persistence.Access;
+import javax.persistence.AccessType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
@@ -12,8 +19,18 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TeamSkill {
-    
-    @Id    
+
+    /**
+     *
+     */
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String teamId;
-    private String skill;    
+    private String skill; 
+    
+    public TeamSkill(String teamId, String skill ) {
+        this.teamId = teamId;
+        this.skill = skill;
+    }
 }
